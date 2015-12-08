@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/base_color" android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <ImageView
+        android:src="@drawable/avatar_principal"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:id="@+id/imageView" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nombre_usuario"
+        android:textStyle="italic"
+        android:textSize="35sp"
+        android:text="Victor Hugo"
+        style="@style/AudioFileInfoOverlayText"
+        android:layout_alignBottom="@+id/imageView"
+        android:layout_centerHorizontal="true" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/tab_principal"
+            android:layout_below="@+id/nombre_usuario"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/linearLayout" />
+        <ImageView
+            android:layout_marginRight="15dp"
+            android:layout_width="35dp"
+            android:layout_height="30dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/icono_camara"
+            android:layout_alignBottom="@+id/linearLayout"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <ImageButton
+            android:layout_gravity="center"
+            android:background="@color/base_color"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:scaleType="centerCrop"
+            android:id="@+id/boton_calculadora"
+            android:src="@drawable/boton_calcular"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+        <ImageView
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:src="@drawable/circulos_girar"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <TextView
+        android:textSize="22sp"
+        android:textColor="#fff"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CALCULADORA"/>
+    <ListView
+        android:background="#fff"
+        android:id="@+id/lista_noticias"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:divider="@color/tab_principal"
+        android:dividerHeight="1dp"/>
+</LinearLayout>

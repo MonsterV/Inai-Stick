@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#CC0000</color>
+    <color name="colorPrimaryDark">#790101</color>
+    <color name="colorAccent">#CC0000</color>
+
+    <color name="base_color">#235A98 </color>
+    <color name="tab_colorizer">#fff</color>
+    <color name="verde_estadar">#8EAE31</color>
+    <color name="naranja_sensible">#DFA826</color>
+    <color name="rojo_especial">#D36039</color>
+    <color name="tab_principal">#387FC2</color>
+
+    <color name="gris_botones">#b7b7b7</color>
+    <color name="sombra_texto">#7F000000</color>
+</resources>

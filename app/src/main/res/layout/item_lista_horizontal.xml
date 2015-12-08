@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:clickable="true"
+    android:id="@+id/contenedor_opcion_horizontal"
+    android:layout_marginStart="5dp"
+    android:layout_marginEnd="5dp"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <ImageButton
+            android:background="@color/base_color"
+            android:scaleType="fitCenter"
+            android:layout_width="15dp"
+            android:id="@+id/boton_elimiar_elemento"
+            android:layout_height="15dp"
+            android:src="@drawable/boton_cerrar"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:id="@+id/imagen_opcion_seleccionada"
+            android:src="@drawable/icono"
+            android:layout_below="@+id/boton_elimiar_elemento"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <TextView
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Opcion"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:textColor="#fff"
+        android:id="@+id/titulo_opcion_seleccionada"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/position"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tipo"/>
+    
+</LinearLayout>
+</LinearLayout>

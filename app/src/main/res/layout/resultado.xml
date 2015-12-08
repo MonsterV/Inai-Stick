@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" android:background="@color/base_color">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_marginTop="15dp"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_gravity="center"
+            android:src="@drawable/boton_calcular"/>
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="fill_parent"
+            android:layout_height="0.1dp"
+            android:background="#fff"/>
+
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="EL VALOR DE TUS DATOS ES:"
+            android:textSize="19sp"
+            android:textColor="#fff"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:text="888 MXN"
+            android:id="@+id/etiqueta_resultado"
+            android:layout_gravity="center"
+            android:textSize="30sp"/>
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="fill_parent"
+            android:layout_height="0.1dp"
+            android:background="#fff"/>
+        <Button
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="15dp"
+            android:layout_gravity="center"
+            android:layout_width="fill_parent"
+            android:layout_height="70dp"
+            android:textSize="30sp"
+            android:text="¡GUARDAR!"
+            android:background="#fff"
+            android:id="@+id/boton_guardar"
+            android:textColor="@color/base_color"/>
+
+        <TextView
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Estimación económica sin valor oficial."
+            android:textSize="18sp"
+            android:textColor="#fff"/>
+    </LinearLayout>
+</ScrollView>
